@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sumit ProtFolio</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="img/pic-bg.png" type="image/x-icon">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+
+    <div class="main">
+
+        <div>
+            <nav
+                class="px-8 left-1/2 flex items-center justify-between -translate-x-1/2 py-3 max-[968px]:py-1 fixed top-7 rounded-full">
+                <h1 class="font-[cookie] text-4xl max-[768px]:text-[5.5vw]"><a href="index.html">Sumit</a></h1>
+                <div class="links flex gap-5">
+                    <a href="#" class="text-[#777777] cursor-default">Home</a>
+                    <a href="projects-page.html" class=" hover:scale-[1.1] duration-300">Projects</a>
+                    <a href="img/Resume.pdf" target="child" class=" hover:scale-[1.1] duration-300">Resume</a>
+                </div>
+                <a href="contact-me.html"
+                    class="nav-contact outline outline-2 outline-offset-2 outline-[#D138C3] px-4 py-2 rounded-full ">Contact
+                    me</a>
+            </nav>
+
+            <div class="hamburger">
+                <svg class="w-[30px] humburger-icon  hidden cursor-pointer z-[9] fixed hidden top-[40px] right-[10vw]"
+                    viewBox="0 0 22 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <line y1="1" x2="22" y2="1" stroke="white" stroke-width="2" />
+                    <line y1="7.59998" x2="22" y2="7.59998" stroke="white" stroke-width="2" />
+                    <line y1="14.2" x2="22" y2="14.2" stroke="white" stroke-width="2" />
+                </svg>
+            </div>
+
+            <div
+                class="menuBg w-full fixed h-screen top-0 left-0 z-[999] rounded-lg bg-[#d9d9d929] backdrop-blur-[13.15px] hidden">
+
+                <div
+                    class="w-[250px] absolute rounded-lg top-1/2 py-4 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-white invert text-black text-center relative ">
+                    <ul class="flex flex-col gap-5">
+                        <li class="text-2xl"><a href="#" class="text-[#777777] cursor-default">Home</a></li>
+                        <li class="text-2xl"><a href="projects-page.html">Project</a></li>
+                        <li class="text-2xl"><a href="img/Resume.pdf" target="child">Resume</a></li>
+                        <li class="text-2xl"><a href="contact-me.html">Contact</a></li>
+                    </ul>
+                    <i
+                        class="close_menu ri-close-large-line cursor-pointer p-1 text-white rounded-lg bg-black text-3xl absolute top-0 right-0 translate-x-1/2 -translate-y-1/2"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="home w-full h-screen relative bg-black px-28 mb-10 max-[768px]:mb-0 flex justify-between">
+
+            <div id="home" class="details flex items-center absolute left-0 px-28 top-1/2 -translate-y-[40%]">
+                <div class="detail w-2/5 py-10 mr-10 flex flex-col gap-5 h-fit">
+                    <div class="name text-[5vw] font-[arp] leading-[1.1] max-[768px]:text-[40px]">
+                        <h1>Sumit</h1>
+                        <h1>Yadav</h1>
+                    </div>
+                    <div class="home-skill text-[2.2vw] tracking-wider max-[768px]:text-[20px]">
+                        <h3 class="typed-text border-r-2 border-white inline-block" id="typedText">Front-End
+                            Developer</h3>
+                    </div>
+                    <div
+                        class="para overflow-hidden w-[75%] max-[768px]:w-[65%] border-l-2 max-[768px]:border-0 text-left  border-white pl-3 mt-5 max-[768px]:mt-2">
+                        <p
+                            class="w-[100%] text-[1.15vw] max-[768px]:text-center leading-relaxed max-[768px]:text-[12px]">
+                            I am a Front-End
+                            Developer and Graphic Designer
+                            whos
+                            approaches my work with full passion and dedication.</p>
+                    </div>
+                    <div class="btncontainer mt-5">
+                        <a href="contact-me.html"
+                            class="btn home-btn px-4 py-2 border-2 border-white rounded-full max-[768px]:text-[2.5vw]">Hire
+                            me <i class="ri-arrow-right-up-line ml-2"></i></a>
+                    </div>
+                </div>
+                <div class="img w-3/5 h-fit flex justify-end pr-10">
+                    <div class="w-[70%] max-[768px]:w-[250px] relative rounded-full">
+                        <div
+                            class="w-[85%] h-[85%] magnetic-div bg-[#f842e861] blur-[60px] magnetic duration-300 absolute top-[7%] left-[7%] z-[-1] rounded-full shadow-[0_0px_80px_80px_rgba(181,58,169,0.35)] max-[768px]:hidden">
+                        </div>
+                        <img src="img/pic-bg.png" alt="">
+                        <img src="img/pic.png"
+                            class="absolute w-[60%] top-[48%] left-[48%] -translate-x-1/2 -translate-y-1/2" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="gradient-one absolute w-[20vw] h-[20vw] rounded-full blur-[80px] top-[-10%] left-[-10%]">
+            </div>
+            <div
+                class="gradient-two absolute w-[25vw] h-[25vw] rounded-full blur-[60px] bottom-0 left-0 translate-y-[50%] -translate-x-[50%]">
+            </div>
+            <svg viewBox="0 0 125 125" fill="none" xmlns="http://www.w3.org/2000/svg" s
+                class="star absolute bottom-10 w-[5vw] max-[968px]:w-[7vw] right-20 opacity-50 w-20 rotate-12 max-[768px]:hidden">
+                <path d="M10 10L115.703 115.703" stroke="#F842E8" stroke-width="26" />
+                <path d="M115.703 10.0001L10.0001 115.703" stroke="#F842E8" stroke-width="26" />
+            </svg>
+
+        </div>
+
+        <div id="about" class="about py-[5vw] max-[768px]:py-0 overflow-hidden relative">
+            <h1 class="heading text-center font-[arp] overflow-hidden text-[7vw] mb-5">
+                <span class="inline-block origin-left">About Me</span>
+            </h1>
+
+            <div class="flex items-center w-full about-main">
+
+                <div class="about-img p-[3vw] -translate-x-[20%] border-[0.5vw] border-white 
+                rounded-full ">
+                    <div class="w-[27vw] h-[27vw] max-[768px]:w-full  max-[768px]:h-full flex 
+                    items-center justify-center">
+                        <img src="img/about-lg.png" class="w-full h-full object-cover max-[768px]:hidden" alt="">
+                        <img src="img/about-sm.png" class="w-[80%] h-[80%] object-cover hidden max-[768px]:block"
+                            alt="">
+
+                    </div>
+                </div>
+
+                <div class="about-detail w-full flex justify-center items-center max-[768px]:mt-10">
+                    <div class="flex texts flex-col max-[768px]:items-center gap-5 w-[60%]  max-[768px]:w-full">
+                        <h2
+                            class="font-[abeeze] hello text-[2.3vw] overflow-hidden max-[768px]:text-[7vw] max-[768px]:text-center">
+                            <span class="inline-block">Hello I’am a web Developer</span>
+                        </h2>
+                        <p
+                            class="w-[90%] overflow-hidden text-[1.2vw] leading-relaxed max-[768px]:text-[3vw] max-[768px]:text-center">
+                            <span class="inline-block">Specializing in web development with
+                                expertise in HTML, CSS, JS and React. I create
+                                efficient web pages and dynamic user interfaces,
+                                ensuring great user experiences. I
+                                thrive on solving problems and bringing
+                                innovative ideas to life. Always eager to learn
+                                and adapt, I'm open to new opportunities and
+                                collaborations. Feel free to reach out!</span>
+                        </p>
+                        <div
+                            class="flex about-links mt-5 items-center justify-between pr-16 max-[768px]:pr-0 w-full max-[768px]:flex-col max-[768px]:gap-4">
+                            <div class="btncontainer">
+                                <a href="contact-me.html
+                                "
+                                    class="btn sec-btn px-4 py-2 border-2 border-white rounded-full text-[1.3vw] max-[768px]:text-[3vw]">Contact
+                                    <i class="ri-arrow-right-up-line"></i>
+                                </a>
+                            </div>
+                            <div
+                                class="icon-box about-icon p-[1vw] flex justify-center gap-[0.75vw] bg-[#d9d9d926] backdrop-blur-xl border border-white rounded-[0.8vw]">
+                                <a href="#"><i
+                                        class="socialIcon hover:scale-[1.1] duration-300 ri-linkedin-line"></i></a>
+                                <a href="#"><i
+                                        class="socialIcon hover:scale-[1.1] duration-300 ri-facebook-line"></i></a>
+                                <a href="#"><i
+                                        class="socialIcon hover:scale-[1.1] duration-300 ri-instagram-line"></i></a>
+                                <a href="#"><i class="socialIcon hover:scale-[1.1] duration-300 ri-mail-line"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="absolute w-[30vw] h-[25vw] gradient-three right-[-15%] bottom-20"></div>
+            <div
+                class="absolute w-[150vw] max-[768px]:block hidden top-[50%] -translate-y-1/2 -translate-x-1/2 z-[-1] left-1/2">
+                <img class="w-[100%] h-[100%] object-cover" src="img/gradient-rod.png" alt="">
+            </div>
+        </div>
+
+        <div id="skill" class="skill py-[5vw] relative overflow-hidden">
+            <h1 class="heading text-center overflow-hidden font-[arp] text-[7vw] mb-[5vw] max-[768px]:mb-12">
+                <span class="inline-block origin-left">My Skills</span>
+            </h1>
+            <img src="img/cross.png" class="absolute top-5 left-5 hidden max-[768px]:block w-[15vw]" alt="">
+
+            <div
+                class="w-full skill-container px-28 max-[768px]:px-0 flex justify-evenly flex-wrap gap-9 max-[768px]:gap-4">
+            </div>
+
+            <div
+                class="absolute w-[130vw] rotate-[90deg] max-[768px]:block hidden top-[70%] -translate-y-1/2 -translate-x-1/2 z-[-1] left-1/2">
+                <img class="w-[100%] h-[100%] object-cover" src="img/gradient-rod.png" alt="">
+            </div>
+
+        </div>
+
+        <div id="project" class="project relative py-10">
+            <h1 class="heading text-center overflow-hidden font-[arp] text-[7vw] mb-10">
+                <span class="inline-block origin-left">Projects</span>
+            </h1>
+            <div class="cards"></div>
+            <div class="btncontainer w-full text-center mt-10">
+                <a href="./projects-page.html" target="child"
+                    class="btn px-4 py-2 border-2 border-white rounded-full text-[1.3vw] max-[768px]:text-[3vw]">All
+                    Projects
+                    <i class="ri-arrow-right-up-line"></i>
+                </a>
+            </div>
+            <img src="img/star.png" class="project-star absolute top-10 right-0 w-[15vw]" alt="">
+        </div>
+
+        <div class="contact py-10 relative" id="contact">
+            <h1 class="heading text-center overflow-hidden font-[arp] text-[7vw] mb-10 max-[768px]:mb-[8vw]">
+                <span class="inline-block origin-left">Contact me</span>
+            </h1>
+            <div class="contact-container flex justify-between items-center px-28 max-[768px]:px-10 max-[968px]:mt-20">
+                <div
+                    class="flex contact-dets relative gap-5 border-l-[0.2vw] max-[968px]:border-0 border-[#33B3AE] h-[43vw] items-center">
+                    <img src="img/contact.png" class="h-full absolute left-0 top-0 hidden max-[768px]:block" alt="">
+                    <div class="block max-[968px]:hidden">
+                        <img class="w-[7vw]"
+                            src="https://github.githubassets.com/assets/git-branch-security-2-f6a799957581.svg" alt="">
+                    </div>
+                    <div>
+                        <h3
+                            class="text-[4vw] text-[#33B3AE] font-semibold mt-[5vw] max-[968px]:mt-[-5vw] lets-talk max-[968px]:text-[5.5vw] max-[968px]:mb-8">
+                            Let’s Talk</h3>
+                        <p class="w-[20vw] max-[968px]:w-[30vw] italic text-[1.2vw] max-[968px]:text-[1.7vw]">"If you
+                            have any questions or need further assistance,
+                            Contact me or fill out the form i will get back to u soon."</p>
+                    </div>
+                </div>
+                <form action="https://api.web3forms.com/submit" method="POST" class="flex flex-col gap-5">
+                    <input type="hidden" name="access_key" value="22a9fb49-1f31-4b19-bf7f-585e5d2b31ad">
+                    <div>
+                        <label for="name" class="block text-[1.2vw] mb-3">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div>
+                        <label for="mail" class="block text-[1.2vw] mb-3">Email</label>
+                        <input type="email" id="mail" name="email" required>
+                    </div>
+                    <div>
+                        <label for="mess" class="block text-[1.2vw] mb-3">Message</label>
+                        <textarea name="message" id="mess" required></textarea>
+                    </div>
+                    <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+                    <div class="inline">
+                        <button type="submit" class="px-4 py-2 hover:scale-[0.9] duration-300">Submit</button>
+                    </div>
+                </form>
+            </div>
+
+            <div
+                class="absolute w-[130vw] rotate-[90deg] max-[768px]:block hidden top-[20%] -translate-y-1/2 -translate-x-1/2 z-[-1] left-1/2">
+                <img class="w-[100%] h-[100%] object-cover" src="img/gradient-rod.png" alt="">
+            </div>
+
+        </div>
+
+        <footer class="mt-[5vw] border-t-[0.2vw] border-[#EB42DD] relative">
+            <img src="img/dots.png" class="absolute contact-dots w-[9.5vw] max-[968px]:w-[5vw] top-10 right-10 
+            max-[768px]:hidden" alt="">
+
+            <div class="flex items-center justify-center overflow-hidden">
+                <img src="img/branch.png" class="w-[70vw] contact-branch max-[768px]:w-[100vw]" alt="">
+            </div>
+
+            <div class="footer-dets px-28 my-5 flex items-center justify-between max-[768px]:mt-10 max-[768px]:mb-5">
+                <h1 class="text-[3.5vw] font-[cookie] max-[968px]:text-[6vw]">
+                    <a href="index.html">Sumit</a>
+                </h1>
+                <ul class="flex gap-5 text-[1.2vw] max-[968px]:text-[1.8vw] max-[768px]:text-[3vw] max-[768px]:gap-5">
+                    <a href="index.html" class=" hover:scale-[1.1] duration-300">Home</a>
+                    <li><a href="projects-page.html" >Projects</a>
+                    <li><a href="img/Resume.pdf">Resume</a>
+                </ul>
+                <div
+                    class="icon-box footer-icon  w-[10vw] p-[1.5vw] max-[768px]:w-[40vw] flex flex-wrap justify-center gap-[0.75vw] bg-[#d9d9d926] backdrop-blur-xl border border-white rounded-[0.8vw] max-[768px]:rounded-[2vw]">
+                    <a href="#"><i class="hover:scale-[1.1] duration-300 ri-linkedin-line"></i></a>
+                    <a href="#"><i class="hover:scale-[1.1] duration-300 ri-facebook-line"></i></a>
+                    <a href="#"><i class="hover:scale-[1.1] duration-300 ri-instagram-line"></i></a>
+                    <a href="#"><i class="hover:scale-[1.1] duration-300 ri-mail-line"></i></a>
+                </div>
+            </div>
+
+            <h3 class="text-zinc-500 max-[968px]:text-zinc-300 text-center py-8 text-[1.2vw] 
+                max-[968px]:text-[1.7vw] max-[768px]:text-[2.2vw]">
+                &copy; 2024 Sumit Yadav All right reserved </h3>
+            <div class="gradient-six"></div>
+        </footer>
+
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+    <script src="script.js"></script>
+    <script src="hamburger.js"></script>
+
+</body>
+
+</html>

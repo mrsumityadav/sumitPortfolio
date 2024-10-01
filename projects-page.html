@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" />
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+</head>
+
+<body>
+
+    <div class="main">
+        <nav
+            class="px-8 left-1/2 flex items-center justify-between -translate-x-1/2 py-3 max-[968px]:py-1 fixed top-7 rounded-full">
+            <h1 class="font-[cookie] text-4xl max-[768px]:text-[5.5vw]"><a href="index.html">Sumit</a></h1>
+            <div class="links flex gap-5">
+                <a href="index.html">Home</a>
+                <a href="#" class="text-[#777777] cursor-default">Projects</a>
+                <a href="img/Resume.pdf" target="child">Resume</a>
+            </div>
+            <a href="contact-me.html"
+                class="nav-contact outline outline-2 outline-offset-2 outline-[#D138C3] px-4 py-2 rounded-full ">Contact
+                me</a>
+        </nav>
+
+        <div class="hamburger">
+            <svg class="w-[30px] humburger-icon  hidden cursor-pointer z-[9] fixed hidden top-[40px] right-[10vw]"
+                viewBox="0 0 22 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <line y1="1" x2="22" y2="1" stroke="white" stroke-width="2" />
+                <line y1="7.59998" x2="22" y2="7.59998" stroke="white" stroke-width="2" />
+                <line y1="14.2" x2="22" y2="14.2" stroke="white" stroke-width="2" />
+            </svg>
+        </div>
+
+        <div class="menuBg w-full fixed top-0 left-0 h-screen z-[999] rounded-lg bg-[#d9d9d929] backdrop-blur-[13.15px] hidden">
+
+            <div
+                class="w-[250px] absolute rounded-lg top-1/2 py-4 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-white invert text-black text-center relative ">
+                <ul class="flex flex-col gap-5">
+                    <li class="text-2xl"><a href="index.html">Home</a></li>
+                    <li class="text-2xl"><a href="#" class="text-[#777777] cursor-default">Project</a></li>
+                    <li class="text-2xl"><a href="img/Resume.pdf" target="child">Resume</a></li>
+                    <li class="text-2xl"><a href="contact-me.html">Contact</a></li>
+                </ul>
+                <i
+                    class="close_menu ri-close-large-line cursor-pointer p-1 text-white rounded-lg bg-black text-3xl absolute top-0 right-0 translate-x-1/2 -translate-y-1/2"></i>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="main relative pt-[0.001vw]">
+
+        <div class="absolute w-[80vw] h-[100vh] top-0 z-[-1] left-[-30%] overflow-hidden max-[768px]:hidden">
+            <img class="w-[100%] h-[100%] object-cover" src="img/gradient-rod.png" alt="">
+        </div>
+
+        <div data-aos-delay="400" data-aos="zoom-in-up" class="slide-container">
+            <div class="slides flex h-[100%]">
+                <div class="slide">
+                    <a href="https://draggable-cards-ivory.vercel.app/" target="child">
+                        <img src="img/project-isotope/docs.png" alt="" />
+                    </a>
+                </div>
+                <div class="slide">
+                    <a href="https://mrsumityadav.github.io/significo/" target="child">
+                        <img src="img/project-isotope/significo.png" alt="" />
+                    </a>
+                </div>
+                <div class="slide">
+                    <a href="https://exoape-ruddy.vercel.app/" target="child">
+                        <img src="img/project-isotope/exoape.png" alt="" />
+                    </a>
+                </div>
+                <div class="slide">
+                    <a href="https://mrsumityadav.github.io/Add-to-Cart/" target="child">
+                        <img src="img/project-isotope/cartBox.png" alt="" />
+                    </a>
+                </div>
+            </div>
+            <div class="slide-controls">
+                <button id="prev-btn">
+                    <i class="ri-arrow-left-s-line"></i>
+                </button>
+                <button id="next-btn">
+                    <i class="ri-arrow-right-s-line"></i>
+                </button>
+            </div>
+        </div>
+
+        <div class="projects py-[5vw] mt-[8vw] flex flex-col gap-[5vw] max-[768px]:gap-[8vw]"></div>
+
+        <div class="absolute z-[-1] w-[80vw] overflow-hidden max-[768px]:hidden">
+            <img class="w-[100%] h-[100%] object-cover" src="img/gradient-rod.png" alt="">
+        </div>
+
+        <div class="isotope py-[5vw] mt-[5vw] relative">
+            <div data-aos="fade-down"
+                class="filter-buttons gap-[1vw] px-[7.5vw] max-[768px]:gap-[2vw] flex justify-center flex-wrap">
+                <button class="filter-button active" data-filter="all">All</button>
+                <button class="filter-button" data-filter="html-css">HTML , CSS, GSAP</button>
+                <button class="filter-button" data-filter="graphic">Graphic</button>
+                <button class="filter-button" data-filter="javascript">JavaScript</button>
+                <button class="filter-button" data-filter="react">React</button>
+            </div>
+
+            <div class="absolute z-[-1] bottom-[5%] right-0 overflow-hidden max-[768px]:hidden">
+                <img src="img/gradient-1.png" alt="">
+            </div>
+
+            <div class="absolute z-[-1] top-[40%] left-0 overflow-hidden max-[768px]:hidden">
+                <img src="img/gradient-2.png" class="w-[70%]" alt="">
+            </div>
+
+            <div class="gallery px-[7.5vw] flex justify-center items-center flex gap-12 flex-wrap">
+            </div>
+        </div>
+
+        <footer class="w-full overflow-hidden relative border-t-[0.25vw] border-[#F842E8] mt-[10.5vw]">
+
+            <img src="img/dots.png" class="absolute w-[9.5vw] max-[968px]:w-[5vw] top-10 right-10 max-[768px]:hidden"
+                alt="">
+
+            <div class="flex items-center justify-center">
+                <img src="img/branch.png" class="w-[85vw] max-[768px]:w-[100vw]" alt="">
+            </div>
+
+            <div class="footer-dets px-28 my-5 flex items-center 
+            justify-between max-[768px]:mt-10 max-[768px]:mb-5">
+
+                <h1 class="text-[3.2vw] font-[cookie] max-[968px]:text-[6vw]">Sumit Yadav</h1>
+                <ul class="flex gap-5 text-[1.2vw] max-[968px]:text-[1.8vw] max-[768px]:text-[3vw] max-[768px]:gap-5">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="projects-page.html" class="hover:scale-[1.1] duration-300">Projects</a></li>
+                    <li><a href="img/Resume.pdf" class="hover:scale-[1.1] duration-300">Resume</a></li>
+                </ul>
+                <div
+                    class="icon-box footer-icon  w-[10vw] p-[1.5vw] max-[768px]:w-[40vw] flex flex-wrap justify-center gap-[0.75vw] bg-[#d9d9d926] backdrop-blur-xl border border-white rounded-[0.8vw]">
+                    <a href="#"><i class="hover:scale-[1.1] duration-300 ri-linkedin-line"></i></a>
+                    <a href="#"><i class="hover:scale-[1.1] duration-300 ri-facebook-line"></i></a>
+                    <a href="#"><i class="hover:scale-[1.1] duration-300 ri-instagram-line"></i></a>
+                    <a href="#"><i class="hover:scale-[1.1] duration-300 ri-mail-line"></i></a>
+                </div>
+            </div>
+
+            <h3
+                class="text-zinc-500 max-[968px]:text-zinc-300   ml-4  text-center py-8 text-[1vw] max-[968px]:text-[1.7vw] max-[768px]:text-[2.2vw]">
+                &copy; 2024 Sumit Yadav All right reserved
+            </h3>
+            <div class="gradient-six"></div>
+        </footer>
+
+    </div>
+
+
+    <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="hamburger.js"></script>
+    <script src="project.js"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+
+</html>

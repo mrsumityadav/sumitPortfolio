@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+</head>
+
+<body>
+
+
+
+    <div class="main pt-[0.01px]">
+
+        <div>
+            <nav
+                class="px-8 left-1/2 flex items-center justify-between -translate-x-1/2 py-3 max-[968px]:py-1 fixed top-7 rounded-full">
+                <h1 class="font-[cookie] text-4xl max-[768px]:text-[5.5vw]"><a href="index.html">Sumit</a></h1>
+                <div class="links flex gap-5">
+                    <a href="index.html">Home</a>
+                    <a href="projects-page.html">Projects</a>
+                    <a href="img/Resume.pdf" target="child">Resume</a>
+                </div>
+                <a href="contact-me.html"
+                    class="contact-nav-btn nav-contact outline outline-2 outline-offset-2 outline-[#D138C3] px-4 py-2 rounded-full ">Contact
+                    me</a>
+            </nav>
+            <div class="hamburger">
+                <svg class="w-[30px] humburger-icon  hidden cursor-pointer z-[9] fixed hidden top-[40px] right-[10vw]"
+                    viewBox="0 0 22 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <line y1="1" x2="22" y2="1" stroke="white" stroke-width="2" />
+                    <line y1="7.59998" x2="22" y2="7.59998" stroke="white" stroke-width="2" />
+                    <line y1="14.2" x2="22" y2="14.2" stroke="white" stroke-width="2" />
+                </svg>
+            </div>
+
+            <div
+                class="menuBg w-full fixed h-screen top-0 left-0 z-[999] rounded-lg bg-[#d9d9d929] backdrop-blur-[13.15px] hidden">
+
+                <div
+                    class="w-[250px] absolute rounded-lg top-1/2 py-4 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-white invert text-black text-center relative ">
+                    <ul class="flex flex-col gap-5">
+                        <li class="text-2xl"><a href="index.html">Home</a></li>
+                        <li class="text-2xl"><a href="projects-page.html">Project</a></li>
+                        <li class="text-2xl"><a href="img/Resume.pdf" target="child">Resume</a></li>
+                        <li class="text-2xl"><a href="#" class="text-[#777777] cursor-default">Contact</a></li>
+                    </ul>
+                    <i
+                        class="close_menu ri-close-large-line cursor-pointer p-1 text-white rounded-lg bg-black text-3xl absolute top-0 right-0 translate-x-1/2 -translate-y-1/2"></i>
+                </div>
+            </div>
+        </div>
+        
+        <div class="contact overflow-hidden relative" id="contact">
+
+            <div
+                class="contact-container contact-page overflow-hidden flex justify-between max-[768px]:justify-center h-[100vh] items-center px-28 max-[968px]:px-16 max-[768px]:px-10">
+
+                <div
+                    class="flex mt-[3vw] p-[2vw] max-[768px]:mt-[16vw] contact-dets relative gap-5 max-[968px]:border-0 border-[#33B3AE] items-center">
+
+                    <img data-aos-delay="400" data-aos="zoom-in" src="img/plane.png"
+                        class="absolute top-0 right-[-20%] max-[968px]:right-[-5%] max-[768px]:hidden w-[4vw]"
+                        alt="kuch nah he">
+
+                    <div class="flex flex-col gap-[2vw]  max-[968px]:gap-[3vw] max-[768px]:items-center">
+                        <h3 data-aos-delay="400" data-aos="zoom-in" class="text-[2.7vw] text-[#33B3AE] font-semibold 
+                        max-[968px]:text-[4vw] max-[768px]:text-[20.5px]">
+                            <span>Hi I’am Sumit Yadav</span>
+                        </h3>
+                        <p data-aos-delay="500" data-aos="zoom-in"
+                            class="border-l-[0.2vw] border-[#33B3AE] pl-[1vw] w-[25vw] max-[968px]:w-[35vw] text-[1.2vw] max-[968px]:text-[1.7vw]">
+                            "Got questions or need more information? Feel free to get in touch with me directly or
+                            complete
+                            the form below. I’m here to help and will get back to you as quickly as possible. Let’s
+                            start a conversation and explore how we can work together to achieve your goals!"
+                        </p>
+                        <div data-aos-delay="600" data-aos="zoom-in" class="flex flex-col gap-[2vw] w-full max-[768px]:flex-row-reverse 
+                        max-[768px]:justify-between max-[768px]:my-[15px] max-[768px]:items-center">
+                            <div
+                                class="icon-box contact-footer footer-icon w-fit p-[0.8vw] flex justify-between gap-[0.75vw] bg-[#d9d9d926] backdrop-blur-xl border border-white rounded-[0.8vw] max-[768px]:rounded-[2vw]">
+                                <a href="#"><i class="ri-linkedin-line"></i></a>
+                                <a href="#"><i class="ri-facebook-line"></i></a>
+                                <a href="#"><i class="ri-instagram-line"></i></a>
+                                <a href="#"><i class="ri-mail-line"></i></a>
+                            </div>
+                            <div data-aos-delay="700" data-aos="zoom-in">
+                                <a href="https://wa.me/9639683235" class="inline-block relative"><img
+                                        src="img/whatsapp.png"
+                                        class="w-[12vw] max-[968px]:w-[15vw] max-[768px]:w-[140px]" alt="">
+                                    <span
+                                        class="absolute top-[50%] -translate-y-1/2 right-[1vw] text-[1.1vw] max-[968px]:text-[1.5vw] max-[768px]:text-[14px]">9639683235</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <form action="https://api.web3forms.com/submit" method="POST"
+                    class="flex flex-col gap-5 contact-page-form">
+                    <input type="hidden" name="access_key" value="22a9fb49-1f31-4b19-bf7f-585e5d2b31ad">
+                    <div data-aos-delay="400" data-aos="zoom-in">
+                        <label for="name" class="block text-[1.2vw] mb-3">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div data-aos-delay="500" data-aos="zoom-in">
+                        <label for="mail" class="block text-[1.2vw] mb-3">Email</label>
+                        <input type="email" id="mail" name="email" required>
+                    </div>
+                    <div data-aos-delay="600" data-aos="zoom-in">
+                        <label for="mess" class="block text-[1.2vw] mb-3">Message</label>
+                        <textarea name="message" id="mess" required></textarea>
+                    </div>
+                    <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+                    <div class="inline">
+                        <button type="submit" class="px-4 py-2 contact-submit-btn">Submit</button>
+                    </div>
+                </form>
+            </div>
+
+            <div class="absolute w-[30vw] h-[20vw] gradient-three right-[-15%] bottom-5 z-[-1]"></div>
+            <div class="absolute w-[40vw] h-[115vh] rotate-12 left-[-8%] top-[-10%] z-[-1] max-[768px]:hidden">
+                <img src="img/contact-rod.png" class="w-full h-full" alt="">
+            </div>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="hamburger.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+
+</html>
